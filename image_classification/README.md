@@ -12,10 +12,10 @@ O dataset usado é composto por 1603 imagens, das quais 423 são pertencentes à
 # Descrição do modelo utilizado
 
 O modelo consiste em:
-* Camada convolucional: 50 filtros (5,5)
+* Camada Convolucional: 50 filtros (5,5)
 * Camada Bacth Normalization
 * Camada Max Pooling: (2,2)
-* Camada convolucional: 32 filtros (5,5)
+* Camada Convolucional: 32 filtros (5,5)
 * Camada Bacth Normalization
 * Camada Max Pooling: (2,2)
 * Camada Flatten
@@ -39,5 +39,5 @@ AUC, accuracy, precision, recall, F1 score.
 
 # Considerações
 
-<O modelo apresentou ótimo resultado em todas as métricas avaliadas (>95%, em média, para todas as métricas). Como o dataset é desbalanceado, o uso do <i>class_weights</i> foi diferencial para atingir os resultados satisfatórios.
+O modelo apresentou ótimo resultado em todas as métricas avaliadas (>95%, em média, para todas as métricas). Como o dataset é desbalanceado, o uso do <i>class_weights</i> foi diferencial para atingir os resultados satisfatórios.
 
