@@ -39,5 +39,5 @@ AUC, accuracy, precision, recall, F1 score.
 
 # Considerações
 
-O modelo apresentou ótimo resultado em todas as métricas avaliadas (>95%, em média, para todas as métricas). Como o dataset é desbalanceado, o uso do <i>class_weights</i> foi diferencial para atingir os resultados satisfatórios.
+O modelo apresentou ótimo resultado em todas as métricas avaliadas (>95%, em média, para todas as métricas). Como o dataset é desbalanceado, o uso do <i>class_weight</i> durante o treinamento foi diferencial para atingir os resultados satisfatórios.
 
