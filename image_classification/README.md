@@ -19,8 +19,8 @@ O modelo consiste em:
 * Camada Bacth Normalization
 * Camada Max Pooling: (2,2)
 * Camada Flatten
-* Cada Densa: 128 neurônios
-* Cada Dropout: 20%
+* Camada Densa: 128 neurônios
+* Camada Dropout: 20%
 * Camada Densa: 128 neurônios
 * Camada Dropout: 20%
 * Camada Densa (saída): 1 neurônio
