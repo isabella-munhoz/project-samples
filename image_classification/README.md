@@ -1,8 +1,8 @@
 # Descrição do problema
 
 <br>Nesse folder, temos a cross-validação de um modelo para a resolução de um problema de classificação de imagens.</br>
-<br> O dataset é composto por imagens de folhas de videira saudáveis (classe 0) e folhas que apresentam <i>black rot</i> (classe 1). <i>Black rot</i> é um nome genérico usado para descrever uma doença que causa manchas pretas nas folhas, causada pela ação de fungos e/ou bactérias. </br>
-<br> O dataset está disponível no Kaggle, através do link: <a>https://www.kaggle.com/piyushmishra1999/plantvillage-grape</a>
+<br> O dataset é composto por imagens de folhas de videira saudáveis (classe 0) e folhas que apresentam <i>black rot</i> (classe 1). <i>Black rot</i> é um nome genérico usado para descrever uma doença que causa manchas nas folhas, causada pela ação de fungos e/ou bactérias. </br>
+<br> O dataset está disponível no Kaggle, através do link: <a>https://www.kaggle.com/piyushmishra1999/plantvillage-grape</a>.
 <br> Nota: No dados originais, encontramos imagens de folhas de videiras acometidas por outras doenças. Esse estudo, contudo, utilizou somente as imagens das folhas saudáveis e das folhas acometidas por <i>black rot</i>.
 
 # Descrição do dataset
@@ -30,7 +30,7 @@ Os hiperparâmetros selecionados foram:
 * Otimizador: Adam (com as configurações <i>default</i> do keras)
 * Batch Size: 50
 * Epochs: 25
-* Class weights: classe 0 - 1.89479 | classe 1 - 0.67923
+* Class weights: classe 0 -> 1.89479 | classe 1 -> 0.67923
 * Threshold usado nos dados de validação: 0.5
 
 # Métricas avaliadas
